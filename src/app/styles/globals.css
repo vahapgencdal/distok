@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+@layer base {
+  * {
+    @apply border-border;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply no-scrollbar;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
